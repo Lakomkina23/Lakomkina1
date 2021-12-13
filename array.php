@@ -43,3 +43,13 @@ unset ($person ['name']);
 
 echo '<pre>';
 print_r ($person);
+
+$colors = ['red', 'green', 'blue'];
+
+$output = '';
+foreach ($colors as $color) {
+    $output = $output . ' ' . $color;
+
+}
+
+
