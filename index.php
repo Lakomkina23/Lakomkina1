@@ -50,7 +50,7 @@ foreach ($users as $user) {
     echo "
     <tr>
     <td>{$user['id']}</td>
-    <td>{$user['login']}</td>
+    <td>{$user['Login']}</td>
     <td>
         <a href='pages/user.php?id={$user['id']}'>
             {$user['name']}
